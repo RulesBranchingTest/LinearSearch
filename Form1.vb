@@ -17,6 +17,7 @@
         astFruit(9) = "Banana"
 
         stTarget = InputBox("Which fruit are you looking for?")
+        'This is a test comment to ensure everything is looking good
 
         For i = 0 To 9
             If UCase(astFruit(i)) = UCase(stTarget) Then
